@@ -1,0 +1,110 @@
+/* Reset / Base */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+/* Jump Menu */
+#jumpMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100vh;
+    background: goldenrod;
+    padding: 20px;
+}
+
+#jumpMenu h2 {
+    margin-top: 0;
+}
+
+#jumpMenu a {
+    display: block;
+    margin: 10px 0;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Main Area */
+main {
+    margin-left: 15%;
+    padding-top: 120px; 
+}
+
+/* Header (fixed, top, centered excluding jump menu) */
+header {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    background: red;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+header p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Article Container */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Individual Articles */
+article {
+    width: 300px;              
+    line-height: 1.5;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+/* Thank You */
+#thanks {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: lightblue;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
